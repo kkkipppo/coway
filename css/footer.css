@@ -1,0 +1,295 @@
+
+/* section quick */
+
+.quick{
+    background-color: #eaf1f4;
+    padding: 30px;
+}
+
+.quick .con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}  
+
+.quick .tBox{
+    display: flex;
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.quick .tBox:last-child{
+    margin-bottom: 0;
+}
+
+.quick h3{
+    font-size: 16px;
+    color: #666;
+    width: 40%;
+    word-break: keep-all;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.quick .sub{
+    color: #999;
+    font-size: 14px;
+    line-height: 18px;
+    word-break: keep-all;
+    width: 60%;
+}
+
+
+/* footer */
+
+footer .util{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    color: #999;
+    padding: 5px 20px;
+}    
+
+.util li{
+    margin: 3px 7px;
+}
+
+footer span{
+    border-top: 1px solid #ccc;
+    display: block;
+    width: 100%;
+}
+
+select{
+    border: 0;
+    background-color: #eee;
+    color: #999;
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+}
+
+footer .con{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+footer h5{
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+}
+
+footer .info{
+    font-weight: 600;
+    font-size: 10px;
+    color: #999;
+    padding: 0 20px;
+}
+
+footer .info a{
+    display: flex;
+    padding: 8px 0;
+}
+
+footer .info a img{
+    width: 6px;
+    height: 4px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+footer .copy{
+    color: #999;
+    font-size: 8px;
+}
+
+.sns img{
+    width: 30px;
+}
+
+footer .sns{
+    display: flex;
+}
+
+.sns li{
+    margin: 0 5px;
+}
+
+.snsC{
+    display: none;
+} 
+
+.sns li a{
+    position: relative;
+    display: block;
+
+}
+
+.snsC{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sns>li>a:hover .snsC{
+    opacity: 1;
+    transition: all 0.7s;
+
+}
+
+
+@media all and (min-width:1200px){
+
+/* section quick */
+
+.quick{
+    padding: 0;
+    margin-top: 72px;
+}
+
+.quick .con{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 40px 80px;
+    box-sizing: border-box;
+}  
+
+.quick .tBox{
+    display: unset;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.quick h3{
+    font-size: 22px;
+    width: auto;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.quick .sub{
+    font-size: 18px;
+    width: auto;
+}
+
+.quick .sub li{
+    margin-bottom: 12px;
+}
+
+/* footer */
+
+.fwrap{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+select{
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+.fwrap2{
+    display: flex;
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.fwrap2 .sns{
+    position: absolute;
+    top: 16px;
+    right: 80px;
+}
+
+footer h1{
+    margin: 24px 0;
+}
+
+footer h1 img{
+    width: 110px;
+}
+
+footer .info{
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0;
+    margin-left: 50px;
+    line-height: 16px;
+}
+
+footer p.pc{
+    margin-top: 16px;
+}
+
+footer .info a{
+    display: flex;
+    padding: 8px 0;
+}
+
+footer .info a img{
+    width: 6px;
+    height: 4px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+footer .copy{
+    color: #999;
+    font-size: 8px;
+}
+.sns img{
+    width: 30px;
+}
+
+footer .util{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #999;
+    padding: 5px 0;
+    font-weight: 500;
+}    
+
+.util li{
+    margin: 3px 0;
+    margin-right: 26px;
+}
+
+footer .sns{
+    display: flex;
+}
+
+.sns li{
+    margin: 0 5px;
+}
+
+/* .sns li a{
+    position: relative;
+    display: block;
+
+}
+
+.snsC{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sns>li>a:hover .snsC{
+    opacity: 1;
+    transition: all 0.7s;
+
+} */
+
+}

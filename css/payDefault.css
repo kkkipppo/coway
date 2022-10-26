@@ -1,0 +1,119 @@
+@media all and (min-width:1200px){
+
+    /* reset */
+    .mobile{display: none; }
+
+    .pc{display: block;}
+
+
+    /* main */
+    .mRap{
+        display: flex;
+        width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main .img a img{
+        width: 60%;
+    }
+
+
+    /* info */
+    .item{
+        width: 28%;
+    }
+
+    /* buy */
+    .buy{
+        background-color: #eee;
+        height: 120px;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    .bWrap{
+        width: 920px;
+        height: 100%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .buy .title{
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .buy .title h3{
+        font-size: 22px;
+    }
+
+    .buy .title p{
+        font-size: 14px;
+        color: #999;
+        margin-top: 4px;
+    }
+
+    .bInfo{
+        width: 240px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+
+    .bInfo p{
+        color: #333;
+        display: block;
+        font-size: 16px;
+        margin-right: 16px;
+    }
+
+    .buy .pBox{
+        margin-left: auto;
+    }
+
+    .buy button{
+        width: 124px;
+        height: 36px;
+        border: 0;
+        background-color: #fff;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .buy .txt{
+        justify-content: unset;
+        position: absolute;
+        right:0;
+        bottom: 12px;
+    }
+
+    /* button hover */
+
+    .imgS .box:hover{
+        cursor: pointer;
+    }
+
+    .buy button:hover{
+        cursor: pointer;
+        background-color: #ccc;
+    }
+    
+    section button:hover{
+        cursor: pointer;
+        background-color: #efefef;
+    }
+
+    .type button:hover{
+        border: none;
+        background-color: #00a7e1;
+        color: #fff;
+    }
+
+    .color_chips div:hover{
+        border: 1px solid #999;
+    }
+}

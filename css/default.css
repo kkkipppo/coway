@@ -1,0 +1,440 @@
+@media all and (min-width:1200px){
+
+    /* reset */
+    section{
+        width: 1320px;
+        margin: 0 auto;
+    }
+
+    /* bn */
+    .bn .box .mobile{
+        display: none;
+    }
+
+    .bn .box .pc{
+        display: block;
+    }
+
+    /* section1 best */
+
+    .best{
+        padding: 0;
+    }
+    
+    .best .bwrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .best h2{
+        font-size: 38px;
+        margin-top: 72px;
+        margin-bottom: 42px;
+    }
+    
+    .best .itemB h3{
+        font-size: 94px;
+    }
+    .best .itemB h3{
+        font-size: 76px;
+    }
+
+    .best .item{
+        width: 490px;
+        height: 287px;
+        margin-bottom: 0;
+        transition: all 0.3s;
+    }
+
+    .best .con:last-child{
+        justify-content: space-between;
+    }
+        
+    .best .item a{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .best .itemB{
+        width: 800px;
+        height: 600px;
+    }
+    
+    .best .pic{
+        width: auto;
+        height: auto;
+        padding-right: 0;
+        display: block;
+        flex-direction: row;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+        
+    .best .itemB .pic img{
+        width: 248px;
+        height: max-content;
+        margin: 0 50px 50px 0;
+    }
+    .best .item img{
+        width: 120px;
+        height: max-content;
+        margin: 0 30px 30px 0;
+    }
+
+    .best .bwrap .itemB h4{
+        font-size: 40px;
+    }
+    .best .item h4{
+        font-size: 24px;
+        margin: 14px 0 14px 0;
+    }
+
+    .best .bwrap .itemB p{
+        font-size: 24px;
+    }
+
+    .best .item p{
+        color: #888;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .best .txt{
+        width: 60%;
+        height: 100%;
+        justify-content: left;
+        padding: 30px 30px;
+    }
+    .best .txtB{
+        padding: 50px 50px;
+    }
+
+    .best .con{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+/* div brand */
+
+.brand{
+    position: relative;
+    margin-top: 72px;
+    height: 800px;
+    background-image: url(../images/main/branding.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.brand .pc{
+    display: block;
+}
+
+.brand .txt{
+    top: 190px;
+    right: 0;
+    text-align: right;
+    width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.brand .txt h3{
+    font-size: 60px;
+    margin-bottom: 40px;
+
+}
+
+.brand .txt p{
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+}
+
+.brand .txt .gray{
+    font-size: 22px;
+    color: #aaa;
+    display: block;
+    margin: 20px 0;
+}
+
+.brand .btn{
+    display: flex;
+    justify-content: right;
+}
+
+.brand .btn a{
+    padding: 10px 0;
+    border-radius: 50px;
+    font-size: 24px;
+    width: 220px;
+}
+
+.brand .btn1{
+    margin-right: 20px;
+}
+ 
+.brand .btn2{
+    margin-top: 0;
+} 
+
+.brand .pic{
+    height: auto;
+}
+.brand img.mobile{
+    display: none;
+}
+  
+
+/* section2 review */
+
+.s2{
+    margin-top: 120px;
+    padding: 0;
+}
+.s2 h2{
+    margin-bottom: 40px;
+}
+
+.s2 h3{
+    font-size: 20px;
+}
+
+.rwrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s2 .item{
+    margin-bottom: 0;
+    height: 400px;
+    width: 312px;
+}
+
+.s2 .item a{
+    display: block;
+    align-items: unset;
+}
+
+
+.s2 .pic img{
+    width: 312px;
+    height: auto;
+}  
+
+.s2 .txt{
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.s2 p{
+    margin-top: 10px;
+    font-size: 14px;
+    height: 32px;
+    padding: 1px 0;
+    -webkit-line-clamp:2; 
+}
+
+.s2 .star{
+    font-size: 16px;
+}
+
+/* section vid */
+
+
+.vid{
+    padding: 0 20px;
+    margin-top: 72px;
+    margin-bottom: 24px;
+}
+.vid .con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vid .box{
+    height: 600px;
+    width: 224px;
+    margin-bottom: 0;
+    transition: all 1s;
+    border-radius: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.vid .box1{background-image: url(../images/main/vid1.gif);}
+.vid .box2{background-image: url(../images/main/vid2.gif);}
+.vid .box3{background-image: url(../images/main/vid3.gif);}
+
+
+.vid .box a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.vid .box.active{
+    width: 800px;
+} 
+
+/* section event */
+
+.event{
+    padding: 0;
+    margin-top: 72px;
+
+}
+.event h2{
+    margin-bottom: 48px;
+    
+}
+.ewrap{
+    display: flex;
+    justify-content: space-between;
+
+}
+.con1{
+    margin-right: 20px;
+}
+.con2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}  
+
+.event .box{
+    overflow: hidden;
+    margin-bottom: 0;
+    height: 180px;
+    background-position: center;
+}
+
+
+.event .con .box1{
+    background-image: url(../images/main/event1.png);
+    width: 585px;
+    height: 383px;
+}
+.event .box2{
+    background-image: url(../images/main/event2.png);
+    width: 446px;
+}
+.event .box3{
+    background-image: url(../images/main/event3.png);
+    width: 250px;
+}
+.event .box4{
+    background-image: url(../images/main/event4.png);
+    width: 250px;
+    margin-top: 20px;
+    background-position: unset;
+}
+.event .box5{
+    background-image: url(../images/main/event5.png);
+    width: 446px;
+    margin-top: 20px;
+}
+
+/* section qna */
+
+.qna{
+    padding: 0;
+    margin-top: 72px;
+
+}
+
+.qna h2{
+    margin-bottom: 24px;
+}
+
+.qna a{
+    border-bottom: 2px solid #03a8e1;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.qna .con{
+    justify-content: center;
+}
+
+.qna .box{
+    width: 180px;
+    height: 180px;
+    margin: 36px 40px 0 40px;
+}
+
+.qna .bwrap{
+    height: 116px;
+    margin-top: -14px;
+}
+
+.qna p{
+    font-size: 18px;
+}
+
+/* view */
+
+figure{
+    width: 500px;
+}
+
+.txtBox{
+    width: 600px;
+    height: 200px;
+
+    text-align: center;
+    padding: 0;
+    
+    overflow-y: unset;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.txtBox h3{
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+.txtBox p{
+    font-size: 18px;
+}
+.txtBox .star{
+
+    font-size: 24px;
+}
+/* hover */
+
+.best .item:hover{
+    cursor: pointer;
+    border: 1px solid #03a8e1;
+}
+.review .item:hover{
+    transform: translate(2px, 2px);
+}
+
+.brand .btn1:hover, .btn2:hover{
+    transform: translate(2px, 2px);
+}
+.event .box:hover{
+    cursor: pointer;
+}
+.vid .box:hover{
+    cursor: pointer;
+}
+
+}
